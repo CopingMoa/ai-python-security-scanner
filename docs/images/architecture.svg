@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#57606a"/></marker></defs>
+<rect width="1000" height="320" rx="12" fill="#f6f8fa"/>
+<rect x="40" y="36" width="6" height="40" fill="#3776ab"/>
+<text x="60" y="54" font-size="22" font-weight="600" fill="#1f2328">AI Security Scanner for Python</text>
+<text x="60" y="78" font-size="14" fill="#57606a">Static rules plus an optional AI-assisted review step</text>
+<rect x="40.0" y="120" width="203.0" height="110" rx="8" fill="#fff" stroke="#d0d7de"/>
+<rect x="40.0" y="120" width="203.0" height="4" rx="2" fill="#3776ab"/>
+<text x="54.0" y="154" font-size="15" font-weight="600" fill="#1f2328">Python source</text>
+<text x="54.0" y="180" font-size="12.5" fill="#57606a">Files or folders</text>
+<text x="54.0" y="200" font-size="12.5" fill="#57606a">passed on the CLI</text>
+<line x1="247.0" y1="175.0" x2="275.0" y2="175.0" stroke="#57606a" stroke-width="2" marker-end="url(#a)"/>
+<rect x="279.0" y="120" width="203.0" height="110" rx="8" fill="#fff" stroke="#d0d7de"/>
+<rect x="279.0" y="120" width="203.0" height="4" rx="2" fill="#3776ab"/>
+<text x="293.0" y="154" font-size="15" font-weight="600" fill="#1f2328">AST rule engine</text>
+<text x="293.0" y="180" font-size="12.5" fill="#57606a">Rules PY001-PY007</text>
+<text x="293.0" y="200" font-size="12.5" fill="#57606a">eval, shell=True, secrets</text>
+<line x1="486.0" y1="175.0" x2="514.0" y2="175.0" stroke="#57606a" stroke-width="2" marker-end="url(#a)"/>
+<rect x="518.0" y="120" width="203.0" height="110" rx="8" fill="#fff" stroke="#d0d7de"/>
+<rect x="518.0" y="120" width="203.0" height="4" rx="2" fill="#3776ab"/>
+<text x="532.0" y="154" font-size="15" font-weight="600" fill="#1f2328">AI-assisted review</text>
+<text x="532.0" y="180" font-size="12.5" fill="#57606a">Optional --ai flag</text>
+<text x="532.0" y="200" font-size="12.5" fill="#57606a">scanner/ai_review.py</text>
+<line x1="725.0" y1="175.0" x2="753.0" y2="175.0" stroke="#57606a" stroke-width="2" marker-end="url(#a)"/>
+<rect x="757.0" y="120" width="203.0" height="110" rx="8" fill="#fff" stroke="#d0d7de"/>
+<rect x="757.0" y="120" width="203.0" height="4" rx="2" fill="#3776ab"/>
+<text x="771.0" y="154" font-size="15" font-weight="600" fill="#1f2328">Findings report</text>
+<text x="771.0" y="180" font-size="12.5" fill="#57606a">Text or JSON output</text>
+<text x="771.0" y="200" font-size="12.5" fill="#57606a">Non-zero exit for CI</text>
+<text x="40" y="286" font-size="12.5" fill="#57606a">Architecture overview. The AI review step is a pluggable hook.</text>
+</svg>
